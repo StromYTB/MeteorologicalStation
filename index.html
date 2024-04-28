@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Počasí</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1>Meteorologická stanice</h1>
+        <h3>Zde můžete najít počasí v různých městech</h3>
+    </div>
+    <h2>Všechna města v naší databázi:</h2>
+    <div id="output"></div>
+    <h2>Najdi teplotu a počasí v městech zde:</h2>
+    <main>
+        <div id="weather-container">
+            <select id="city-select">
+                <option value="">Města</option>
+            </select>
+            <button id="update-btn">Aktualizovat</button>
+            <div id="weather-info"></div>
+        </div>
+        <div id="dynamic-effects"></div>
+    </main>
+    <h2>Nejteplejší město:</h2>
+    <h3 id="hottestOutput"></h3>
+    <button onclick="getMostHottestCity()">zjistit</button>
+
+
+
+    
+    <script src="script.js"></script>
+</body>
+</html>

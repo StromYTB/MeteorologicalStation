@@ -1,0 +1,8 @@
+.navbar{
+    background-color: #9898ff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+h1{
+    text-decoration:underline}
